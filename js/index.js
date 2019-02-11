@@ -16,9 +16,9 @@ window.onload = function(){
     options: {
       rotation: 1 * Math.PI,
       circumference: 1 * Math.PI,
-      legend: {
-        display: false
-      }
+      // legend: {
+      //   display: false
+      // }
     }
   });
 
@@ -40,6 +40,7 @@ window.onload = function(){
           }
         ]
       },
-      options: {}
+      options: {
+      }
   });
 }
