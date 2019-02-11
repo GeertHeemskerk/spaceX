@@ -1,6 +1,6 @@
 window.onload = function(){
-  var ctx = document.getElementById('fuel').getContext('2d');
-  var chart = new Chart(ctx, {
+  var atx = document.getElementById('fuel').getContext('2d');
+  var doughnut = new Chart(atx, {
     type: 'doughnut',
     data: {
         labels: ["Empty", "Fuel"],
@@ -16,14 +16,14 @@ window.onload = function(){
     options: {
       rotation: 1 * Math.PI,
       circumference: 1 * Math.PI,
-      // legend: {
-      //   display: false
-      // }
+      legend: {
+        display: false
+      }
     }
   });
 
-  var ctx = document.getElementById('distanceInTime').getContext('2d');
-  var chart = new Chart(ctx, {
+  var btx = document.getElementById('distanceInTime').getContext('2d');
+  var lineChart = new Chart(btx, {
       type: 'line',
       data: {
           labels: ["10", "20", "30", "40", "50", "60", "70"],
@@ -41,6 +41,43 @@ window.onload = function(){
         ]
       },
       options: {
+        legend: {
+          labels: {
+            fontSize: 25
+          }
+        }
       }
+  });
+
+  var ctx = document.getElementById('thermometer').getContext('2d');
+  var BarChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+      labels: ["GPU", "CPU", "RAM"],
+      datasets: [{
+          label: "GPU",
+          backgroundColor: 'rgb(129, 111, 69, 1)',
+          borderColor: 'rgb(129, 111, 69, 1)',
+          data: [25],
+      },{
+        label: "CPU",
+        backgroundColor: 'rgb(102, 88, 88, 1)',
+        borderColor: 'rgb(50, 50, 50, 1)',
+        data: [0, 92],
+      },{
+        label: "RAM",
+        backgroundColor: 'rgb(50, 50, 50, 1)',
+        borderColor: 'rgb(50, 50, 50, 1)',
+        data: [0, 0, 72],
+      }
+    ]
+  },
+    options: {
+      legend: {
+        labels: {
+          fontSize: 25
+        }
+      }
+    }
   });
 }
