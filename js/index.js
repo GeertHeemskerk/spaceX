@@ -18,6 +18,13 @@ window.onload = function(){
       circumference: 1 * Math.PI,
       legend: {
         display: false
+      },
+      tooltips: {
+        titleFontSize: 25,
+        bodyFontSize: 25,
+        xPadding: 20,
+        yPadding: 10,
+        caretPadding: 10,
       }
     }
   });
@@ -45,6 +52,13 @@ window.onload = function(){
           labels: {
             fontSize: 25
           }
+        },
+        tooltips: {
+          titleFontSize: 25,
+          bodyFontSize: 25,
+          xPadding: 20,
+          yPadding: 10,
+          caretPadding: 10,
         }
       }
   });
@@ -75,8 +89,15 @@ window.onload = function(){
     options: {
       legend: {
         labels: {
-          fontSize: 22
+          fontSize: 25
         }
+      },
+      tooltips: {
+        titleFontSize: 25,
+        bodyFontSize: 25,
+        xPadding: 20,
+        yPadding: 10,
+        caretPadding: 10,
       }
     }
   });
