@@ -71,8 +71,7 @@ window.onload = function(){
         },
         layout: {
           padding: {
-            top: 30,
-            bottom: 30,
+            bottom: 90,
             left: 10,
             right: 10
           }
@@ -127,8 +126,7 @@ window.onload = function(){
       },
       layout: {
         padding: {
-          top: 40,
-          bottom: 30,
+          bottom: 90,
           left: 10,
           right: 10
         }

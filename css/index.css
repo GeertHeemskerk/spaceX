@@ -37,12 +37,21 @@ h1{
   padding: 20px;
 }
 
-.chartHolder{
+.fuelHolder{
   grid-area: chartHolder;
   background-color: #ffff;
-  margin: 30px 0px 100px 0px;
+  margin: 30px 0px 50px 0px;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.07);
   width: 100%;
+}
+
+.lineHolder{
+  grid-area: chartHolder;
+  background-color: #ffff;
+  margin: 30px 0px 50px 0px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.07);
+  width: 100%;
+  height: 600px;
 }
 
 .contentPusher{
