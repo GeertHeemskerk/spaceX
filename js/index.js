@@ -1,4 +1,5 @@
 window.onload = function(){
+  Chart.defaults.global.maintainAspectRatio = false;
   var atx = document.getElementById('fuel').getContext('2d');
   var doughnut = new Chart(atx, {
     type: 'doughnut',
