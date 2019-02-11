@@ -21,11 +21,19 @@ window.onload = function(){
         display: false
       },
       tooltips: {
-        titleFontSize: 25,
-        bodyFontSize: 25,
+        titleFontSize: 20,
+        bodyFontSize: 20,
         xPadding: 20,
         yPadding: 10,
         caretPadding: 10,
+      },
+      layout: {
+        padding: {
+          top: 50,
+          bottom: 50,
+          left: 40,
+          right: 40
+        }
       }
     }
   });
@@ -51,16 +59,33 @@ window.onload = function(){
       options: {
         legend: {
           labels: {
-            fontSize: 25
+            fontSize: 20
           }
         },
         tooltips: {
-          titleFontSize: 25,
-          bodyFontSize: 25,
+          titleFontSize: 20,
+          bodyFontSize: 20,
           xPadding: 20,
           yPadding: 10,
-          caretPadding: 10,
-        }
+          caretPadding: 10
+        },
+        layout: {
+          padding: {
+            top: 30,
+            bottom: 30,
+            left: 10,
+            right: 10
+          }
+        },
+        scales: {
+                yAxes: [{
+                    ticks: {
+                        max: 70,
+                        min: 0,
+                        stepSize: 7
+                    }
+                }]
+            }
       }
   });
 
@@ -90,15 +115,23 @@ window.onload = function(){
     options: {
       legend: {
         labels: {
-          fontSize: 25
+          fontSize: 20
         }
       },
       tooltips: {
-        titleFontSize: 25,
-        bodyFontSize: 25,
+        titleFontSize: 20,
+        bodyFontSize: 20,
         xPadding: 20,
         yPadding: 10,
         caretPadding: 10,
+      },
+      layout: {
+        padding: {
+          top: 40,
+          bottom: 30,
+          left: 10,
+          right: 10
+        }
       }
     }
   });

@@ -34,14 +34,17 @@ body{
 h1{
   text-align: center;
   font-size: 30px;
+  padding: 20px;
 }
 
 .chartHolder{
   grid-area: chartHolder;
   background-color: #ffff;
-  margin: 60px 0px;
+  margin: 30px 0px 100px 0px;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.07);
   width: 100%;
-  height: 400px;
-  padding: 80px;
+}
+
+.contentPusher{
+  height: 100px;
 }
