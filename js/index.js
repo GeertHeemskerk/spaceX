@@ -21,15 +21,15 @@ window.onload = function(){
         display: false
       },
       tooltips: {
-        titleFontSize: 14,
-        bodyFontSize: 14,
+        titleFontSize: 12,
+        bodyFontSize: 12,
         xPadding: 20,
         yPadding: 10,
         caretPadding: 10,
       },
       layout: {
         padding: {
-          bottom: 50,
+          bottom: 100,
           left: 40,
           right: 40
         }
@@ -58,12 +58,12 @@ window.onload = function(){
       options: {
         legend: {
           labels: {
-            fontSize: 14
+            fontSize: 12
           }
         },
         tooltips: {
-          titleFontSize: 14,
-          bodyFontSize: 14,
+          titleFontSize: 12,
+          bodyFontSize: 12,
           xPadding: 20,
           yPadding: 10,
           caretPadding: 10
@@ -71,8 +71,7 @@ window.onload = function(){
         layout: {
           padding: {
             bottom: 90,
-            left: 10,
-            right: 10
+            right: 15
           }
         },
         scales: {
@@ -113,12 +112,12 @@ window.onload = function(){
     options: {
       legend: {
         labels: {
-          fontSize: 14
+          fontSize: 12
         }
       },
       tooltips: {
-        titleFontSize: 14,
-        bodyFontSize: 14,
+        titleFontSize: 12,
+        bodyFontSize: 12,
         xPadding: 20,
         yPadding: 10,
         caretPadding: 10,
@@ -126,8 +125,7 @@ window.onload = function(){
       layout: {
         padding: {
           bottom: 90,
-          left: 10,
-          right: 10
+          right: 15
         }
       }
     }
