@@ -1,10 +1,26 @@
 @media only screen and (min-width: 768px){
+  .logo{
+    margin: 1% 0 0 34%;
+    width: 40%;
+    height: 4vh;
+  }
+
+  .main{
+    flex-wrap: wrap;
+  }
+
   .fuelHolder{
-    width: 50%;
+    width: 47%;
     height: 30vh;
   }
 
   .contentPusher{
-    height: 40vh;
+    height: 86vh;
+  }
+
+  .lineHolder:nth-child(2){
+    width: 47%;
+    height: 30vh;
+    margin-left: 6%;
   }
 }

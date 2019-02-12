@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1920px){
+  .main{
+    width: 70%;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .lineHolder:nth-child(3){
+    height: 40vh;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1440px){
+  .logo{
+    width: 30%;
+    height: 6vh;
+    margin: 1% 0 0 37%;
+  }
+
+  .fuelHolder{
+    height: 40vh;
+  }
+
+  .lineHolder:nth-child(3){
+    height: 50vh;
+    margin: 0 auto;
+  }
+
+  .lineHolder:nth-child(2){
+    margin-bottom: 70px;
+    height: 40vh;
+  }
+
+  .contentPusher{
+    height: 50vh;
+  }
+}

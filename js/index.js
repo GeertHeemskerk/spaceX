@@ -4,7 +4,7 @@ window.onload = function(){
   var doughnut = new Chart(atx, {
     type: 'doughnut',
     data: {
-        labels: ["Empty", "Fuel"],
+        labels: ["EMPTY", "FULL"],
         datasets: [{
             backgroundColor: [
               'rgb(50, 50, 50, 1)',
@@ -43,12 +43,12 @@ window.onload = function(){
       data: {
           labels: ["10", "20", "30", "40", "50", "60", "70"],
           datasets: [{
-              label: "Actual speed",
+              label: "ACTUAL SPEED",
               backgroundColor: 'rgb(129, 111, 69, 0)',
               borderColor: 'rgb(129, 111, 69, 1)',
               data: [0, 15, 25, 28, 40, 57, 70],
           },{
-            label: "Average speed",
+            label: "AVERAGE SPEED",
             backgroundColor: 'rgb(50, 50, 50, 0)',
             borderColor: 'rgb(50, 50, 50, 1)',
             data: [0, 7.5, 13.3, 17, 21.6, 27.5, 33.6],
