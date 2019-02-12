@@ -1,2 +1,10 @@
 @media only screen and (min-width: 768px){
+  .fuelHolder{
+    width: 50%;
+    height: 30vh;
+  }
+
+  .contentPusher{
+    height: 40vh;
+  }
 }

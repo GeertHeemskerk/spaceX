@@ -14,6 +14,7 @@ body{
   "main"
   "chartHolder";
 }
+
 .main{
   grid-area: main;
   display: flex;
@@ -39,10 +40,11 @@ h1{
 
 .fuelHolder{
   grid-area: chartHolder;
-  background-color: #ffff;
+  background-color: #fff;
   margin: 30px 0px 50px 0px;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.07);
   width: 100%;
+  height: 300px;
 }
 
 .lineHolder{
@@ -51,9 +53,5 @@ h1{
   margin: 30px 0px 50px 0px;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.07);
   width: 100%;
-  height: 600px;
-}
-
-.contentPusher{
-  height: 100px;
+  height: 400px;
 }

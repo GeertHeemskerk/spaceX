@@ -21,20 +21,19 @@ window.onload = function(){
         display: false
       },
       tooltips: {
-        titleFontSize: 20,
-        bodyFontSize: 20,
+        titleFontSize: 14,
+        bodyFontSize: 14,
         xPadding: 20,
         yPadding: 10,
         caretPadding: 10,
       },
       layout: {
         padding: {
-          top: 50,
           bottom: 50,
           left: 40,
           right: 40
         }
-      }
+      },
     }
   });
 
@@ -59,12 +58,12 @@ window.onload = function(){
       options: {
         legend: {
           labels: {
-            fontSize: 20
+            fontSize: 14
           }
         },
         tooltips: {
-          titleFontSize: 20,
-          bodyFontSize: 20,
+          titleFontSize: 14,
+          bodyFontSize: 14,
           xPadding: 20,
           yPadding: 10,
           caretPadding: 10
@@ -114,12 +113,12 @@ window.onload = function(){
     options: {
       legend: {
         labels: {
-          fontSize: 20
+          fontSize: 14
         }
       },
       tooltips: {
-        titleFontSize: 20,
-        bodyFontSize: 20,
+        titleFontSize: 14,
+        bodyFontSize: 14,
         xPadding: 20,
         yPadding: 10,
         caretPadding: 10,
