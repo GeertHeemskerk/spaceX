@@ -18,8 +18,8 @@
     margin-bottom: 70px;
     height: 40vh;
   }
-
+  
   .contentPusher{
-    height: 50vh;
+    height: 0vh;
   }
 }

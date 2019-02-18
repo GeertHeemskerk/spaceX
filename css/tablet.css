@@ -14,13 +14,13 @@
     height: 30vh;
   }
 
-  .contentPusher{
-    height: 86vh;
-  }
-
   .lineHolder:nth-child(2){
     width: 47%;
     height: 30vh;
     margin-left: 6%;
+  }
+
+  .contentPusher{
+    height: 86vh;
   }
 }
